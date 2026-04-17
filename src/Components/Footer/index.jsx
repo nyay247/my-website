@@ -28,7 +28,7 @@ const Footer = () => {
               <Linkdin />
               <Twitter />
             </div>
-            <div>Phone: +91 73575 98783</div>
+            <div>Phone: +91 7357598783</div>
           </div>
           <div className="hidden lg:flex"></div>
           <div className="hidden lg:flex flex-col gap-3">
