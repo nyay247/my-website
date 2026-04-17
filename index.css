@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "Gilroy", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.hero-background {
+  background-repeat: no-repeat;
+  background-image: url(./Assets/HeroBg.png);
+}
+.card-background {
+  background-repeat: no-repeat;
+  background-image: url(./Assets/CardBg.png);
+}
+.form-background {
+  background-repeat: no-repeat;
+  background-image: url(./Assets/form-bg.png);
+  background-size: contain;
+  background-position: right;
+}
+
+@media (max-width: 1024px) {
+  .hero-background {
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-image: url(./Assets/herobgsmall.png);
+  }
+}
